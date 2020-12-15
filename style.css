@@ -160,7 +160,7 @@ img {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
-.nav-link.current,
+.nav-link.current:hover,
 .filter-button.current {
   color: var(--acent-color);
   text-decoration: none;
@@ -425,6 +425,7 @@ img {
   padding-left: 10px;
   padding-top: 20px;
 }
+
 .picture-card-text {
   color: #8b8686;
   font-weight: 400px;
