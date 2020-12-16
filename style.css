@@ -333,7 +333,7 @@ img {
   flex-wrap: wrap;
   display: flex;
 }
-.picture-card {
+.picture-card:hover {
   display: block;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -424,17 +424,17 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-left: 10px;
+  padding-left: 24px;
   padding-top: 20px;
 }
 
 .picture-card-text {
-  color: #8b8686;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   padding-left: 24px;
   padding-bottom: 20px;
+  color: #8b8686;
 }
 div {
   display: block;
